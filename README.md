@@ -6,7 +6,7 @@ I create QR codes wiith python's qrcode library👇🏼
 
 import qrcode
 
-url = 'chatgpt.am'
+url = 'chatgpt.com'
 
 qr = qrcode.make(url)
 
