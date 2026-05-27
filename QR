@@ -1,0 +1,7 @@
+import qrcode
+
+url = 'chatgpt.com'
+
+qr = qrcode.make(url)
+
+qr.save("/storage/emulated/0/Download/chatgpt-qr.png")
